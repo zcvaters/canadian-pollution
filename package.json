@@ -30,6 +30,8 @@
     "eslint-plugin-mocha": "^8.1.0",
     "express": "*",
     "serve": "^11.3.2",
-    "validatorjs": "^3.22.1"
+    "validatorjs": "^3.22.1",
+    "mongodb": "^3.6.4",
+    "validator": "^13.5.2"
   }
 }
