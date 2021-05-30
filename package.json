@@ -6,7 +6,9 @@
   "scripts": {
     "test": "mocha",
     "coverage": "nyc npm run test",
-    "start": "node app"
+    "build": "cd views && npm install && npm run build",
+    "start": "node app.js",
+    "client": "cd views && npm run start"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +26,7 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "eslint-plugin-mocha": "^8.1.0",
+    "serve": "^11.3.2",
     "validatorjs": "^3.22.1"
   }
 }
