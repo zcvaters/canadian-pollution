@@ -23,6 +23,8 @@
     "validator": "^13.5.2"
   },
   "dependencies": {
+    "express":"*",
+    "body-parser":"*",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "eslint-plugin-mocha": "^8.1.0",
