@@ -86,7 +86,7 @@ export const FormContextProvider = (props) => {
     }
 
     axios
-      .post(`http://localhost:${port}/stats/${graphType}`, body)
+      .post(`https://localhost:${port}/stats/${graphType}`, body)
       .then((resp) => {
         if (resp?.data?.err) {
           alert(JSON.stringify(resp?.data?.err));
