@@ -3,6 +3,7 @@ const stats_router = require("./routes/stats.js");
 const mongo = require("./utils/db.js");
 const cors = require("cors");
 const path = require("path")
+const port = process.env.PORT || 3000
 
 var db;
 async function loadDBClient() {
