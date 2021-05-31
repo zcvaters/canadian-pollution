@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-const port = process.env.PORT || 3001;
 
 export const FormContext = React.createContext();
 
@@ -86,7 +85,7 @@ export const FormContextProvider = (props) => {
     }
 
     axios
-      .post(`https://localhost:${port}/stats/${graphType}`, body)
+      .post(`/stats/${graphType}`, body)
       .then((resp) => {
         if (resp?.data?.err) {
           alert(JSON.stringify(resp?.data?.err));

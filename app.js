@@ -1,7 +1,6 @@
 const express = require("express");
 const stats_router = require("./routes/stats.js");
 const mongo = require("./utils/db.js");
-const port = process.env.PORT || 3001;
 const cors = require("cors");
 const path = require("path")
 
