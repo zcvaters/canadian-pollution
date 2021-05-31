@@ -25,13 +25,13 @@
   "dependencies": {
     "body-parser": "*",
     "cors": "^2.8.5",
-    "jsonschema": "^1.4.0",
     "dotenv": "^10.0.0",
     "eslint-plugin-mocha": "^8.1.0",
     "express": "*",
-    "serve": "^11.3.2",
-    "validatorjs": "^3.22.1",
+    "jsonschema": "^1.4.0",
     "mongodb": "^3.6.4",
-    "validator": "^13.5.2"
+    "serve": "^11.3.2",
+    "validator": "^13.5.2",
+    "validatorjs": "^3.22.1"
   }
 }

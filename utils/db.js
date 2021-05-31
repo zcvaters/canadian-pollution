@@ -1,5 +1,6 @@
 const MongoClient = require("mongodb").MongoClient;
-const uri = "mongodb://localhost:27017";
+require('dotenv').config();
+const uri = 'mongodb+srv://'+process.env.MONGO_USERNAME+':'+process.env.MONGO_PASSWORD+'@canadian-pollution.ac2ym.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const client = new MongoClient(uri, { useUnifiedTopology: true });
 
 /**
